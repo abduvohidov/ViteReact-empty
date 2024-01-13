@@ -1,8 +1,10 @@
-import "../styles/main.scss"
+import "../styles/main.scss";
 export const Home = () => {
   return (
-    <main>
-      <h1 className="text">Home</h1>
-    </main>
+    <>
+      <div className="container">
+        <h1 className="text text-center mt-5">Home Page</h1>
+      </div>
+    </>
   );
 };
